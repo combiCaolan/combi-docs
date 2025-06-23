@@ -1,41 +1,41 @@
-# Website
+# Combilift Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains the source code and documentation for the Combilift Documentation website, built with [Docusaurus](https://docusaurus.io/).
 
-## Installation
+## 🚀 Getting Started
 
-```bash
-yarn
-```
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Local Development
+2. **Start the development server**
+   ```bash
+   npm run start
+   ```
 
-```bash
-yarn start
-```
+3. **Build the static site**
+   ```bash
+   npm run build
+   ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+4. **Serve the static site locally**
+   ```bash
+   npm run serve
+   ```
 
-## Build
+## 📦 Deployment
 
-```bash
-yarn build
-```
+The site is automatically built and deployed using GitHub Actions on every push to the `main` branch. The static site is served via GitHub Pages from the `/docs` folder.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 📄 License
 
-## Deployment
+See [LICENSE](LICENSE) for details.
 
-Using SSH:
+## 🤝 Contributing
 
-```bash
-USE_SSH=true yarn deploy
-```
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-Not using SSH:
+## 🛡️ Security
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+See [SECURITY.md](SECURITY.md) for security policies and reporting vulnerabilities.
