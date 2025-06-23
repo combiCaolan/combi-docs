@@ -106,6 +106,8 @@ When the reach is being extended an outward pointing arrow will appear between t
 When the reach is being retracted an inward pointing arrow will appear between the forks in the centre of the screen. 
 Icon colour might change depending on the function status. 
 
+![reach-out-function-indicator](reach-out-function-indicator.png "reach-out-function-indicator.png")
+
 ## Wheel Position Indicators  
 The wheel position indicators display the angular position of each wheel in real time. 
 
