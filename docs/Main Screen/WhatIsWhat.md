@@ -106,10 +106,12 @@ When the reach is being extended an outward pointing arrow will appear between t
 When the reach is being retracted an inward pointing arrow will appear between the forks in the centre of the screen. 
 Icon colour might change depending on the function status. 
 
-![reach-out-function-indicator](reach-out-function-indicator.png "reach-out-function-indicator.png")
+![reach-out-function-indicator](reach-out-function-indicator.png)
 
 ## Wheel Position Indicators  
 The wheel position indicators display the angular position of each wheel in real time. 
+
+![wheel-position-indicators](wheel-position-indicators.png)
 
 
 ## Hourmeter 
@@ -122,13 +124,19 @@ Resetting the service counters will clear the bar.
 This should only be done after the truck has been serviced. 
 Press on the bar to bring up more information
 
+![maintenance-interval-indicator](maintenance-interval-indicator.png)
+
 ## Park Brake Indicator  
 The park brake indicator is displayed on the screen when the park brake is engaged. 
+
+![park-brake-indicator](park-brake-indicator.png)
 
 ## Fault Warning Indicator 
 The fault warning indicator is displayed when a fault has been detected by the trucks electrical control system. 
 Press the screen on the fault warning indicator to bring up a list of all the current faults. 
 The fault warning indicator will be cleared automatically when faults have been resolved.
+
+![fault-warning-indicator](fault-warning-indicator.png)
 
 ## Work Light Switch & Indicator 
 The work lights switch and indicator is used to switch the work lights on and off. 
@@ -137,12 +145,18 @@ Press the screen on the work light icon a second time to deactivate the work lig
 Press the screen on the work light icon for more than 2s to be given access to extra options. 
 The appearance of the icon will change depending on whether the lights are on or off. 
 
+![work-lights-swtich-&-indicator](work-lights-swtich-&-indicator.png)
+
 ## Battery Information & Battery Discharge Indicator 
 The battery icon will change colour to indicate the state of charge of the batteries. 
 Press the screen on the battery icon to bring up a pop up showing information on the batteries including their state of charge. 
 The battery discharge indicator displays the level of charge remaining in the batteries. 
 When the batteries are fully charged the indicator is completely filled to the top in green. 
 As the state of charge reduces the colour will also change until it becomes red. 
+
+![battery-information](battery-information.png)
+
+![battery-discharge-indicator](battery-discharge-indicator.png)
 
 ## Drive Direction Indicator 
 The drive direction indicator displays the drive direction that has been selected with the four-way direction control switch. 
@@ -151,4 +165,6 @@ When the four-way direction control switch is in the neutral (centre) position n
 Only the centre circle will be highlighted green. 
 When a drive direction is selected an amber arrow pointing in the selected direction will be displayed. 
 When the truck is ready to travel in the selected direction the amber arrow will change to green. 
+
+![drive-direction-indicator](drive-direction-indicator.png)
 
