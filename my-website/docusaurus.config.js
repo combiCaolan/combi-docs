@@ -81,10 +81,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Combilift Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://support.combilift.net/wp-content/uploads/2020/09/Combilift-Web-Logo_ICT.png',
         },
         items: [
           {
