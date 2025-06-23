@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "docs:pdf": "markdown-pdf docs/Into/*.md -o docs/all-docs.pdf",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -24,7 +25,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
-    "@docusaurus/types": "3.8.1"
+    "@docusaurus/types": "3.8.1",
+    "markdown-pdf": "^11.0.0"
   },
   "browserslist": {
     "production": [
