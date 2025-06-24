@@ -22,13 +22,29 @@
 }
 
 .navbar--fixed-top{
-  background:rgb(13, 105, 56);
+  background: linear-gradient(to bottom, rgb(13, 105, 56) 0%, rgb(7, 53, 28) 100%) !important;
+  padding: 5px 5px 5px 5px!important;
+  color: white;
 }
 
 .navbar--fixed-top a{
   color: white!important;
 }
 
+/* 
+
 .hero {
-  background: url('https://support.combilift.net//wp-content/uploads/2023/01/NEW-FACTORY_HERO.jpg?id=409772');
+    background: url(https://support.combilift.net//wp-content/uploads/2023/01/NEW-FACTORY_HERO.jpg?id=409772);
+    background-size: cover !important;
+    background-position: center;
 }
+
+.hero a {
+  background: rgb(13, 105, 56);
+  border: solid rgb(13, 105, 56);
+  color:white;
+}
+
+.navbar__logo{
+  height: unset!important;
+} */
