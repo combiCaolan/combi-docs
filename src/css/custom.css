@@ -23,7 +23,7 @@
 
 .navbar--fixed-top{
   background: linear-gradient(to bottom, rgb(13, 105, 56) 0%, rgb(7, 53, 28) 100%) !important;
-  padding: 5px 5px 5px 5px!important;
+  /* padding: 5px 5px 5px 5px!important; */
   color: white;
 }
 

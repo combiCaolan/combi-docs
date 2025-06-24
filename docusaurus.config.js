@@ -69,7 +69,7 @@ const config = {
         title: 'Combilift Docs',
         logo: {
           alt: 'Combilift Logo',
-          src: 'http://localhost:8000/assets/ecompassLogo.png',
+          src: 'http://localhost:8000/assets/ecompassLogoCopy.png',
         },
         items: [
           // {
