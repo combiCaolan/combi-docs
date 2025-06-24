@@ -1,0 +1,19 @@
+{
+  "label": "Hydraulics",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "The Hydraulics menu allows you to navigate to different screens relating to the trucks hydraulics functions, that will allow you to change the trucks parameters
+Not all the options might be available or applicable for your truck.
+Hydraulic cmd type – Predefined hydraulic layouts
+Type 0 – For SLE and FSE trucks. Standard configurable input and output hydraulics. Provision for up to 6 fingertips controls with dual redundancy and 4 proportional hydraulic sections or up to 6 PVG valve sections
+Type 1 – For CS and WR trucks. Pedestrian CAN tiller head or standard configurable inputs and pedestrian hydraulic valve block
+Type 2 – For AMEOP trucks. Standard configurable input and AMEOP valveblock.
+Type 3 – For CS3000 trucks. Pedestrian CAN tiller head or standard configurable inputs and AMEOP valveblock
+Type 4 – For SPT trucks. SPT special hydraulics. CAN joystick and custom valves
+Type 5 – For SPT trucks. SPT special hydraulics. CAN joystick and custom valves
+Type 6 – For CBE70, CUBE, MR4 and M-ESL trucks. CAN joystick with ‘Type 0’ configurable output valves.
+Type 7 – For CBE4000_SHAPE trucks. Basic manual valves with no feedback, single pressure switch to detect the hydraulic movement
+Type 8 – For FSE trucks. Hydreco CAN joystick and Brevini valves"
+  }
+}
