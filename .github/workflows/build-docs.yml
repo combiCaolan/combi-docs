@@ -26,8 +26,8 @@ jobs:
           name: documentation-pdf
           path: docs/all-docs.pdf
 
-      - name: Generate PDF of docs
-        run: npm run docs:pdf
+      # - name: Generate PDF of docs
+      #   run: npm run docs:pdf
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
