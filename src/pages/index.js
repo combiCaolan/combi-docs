@@ -43,11 +43,6 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
-      <Chatbot
-        config={config}
-        messageParser={MessageParser}
-        actionProvider={ActionProvider}
-      />
     </Layout>
   );
 }

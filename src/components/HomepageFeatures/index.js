@@ -59,6 +59,11 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
+
+      <div className="chatbot-container">
+        AI Powered Combilift Docs
+      </div>
+
     </section>
   );
 }
