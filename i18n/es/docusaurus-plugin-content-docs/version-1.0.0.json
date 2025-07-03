@@ -1,0 +1,122 @@
+{
+  "version.label": {
+    "message": "v1.0.0",
+    "description": "The label for version 1.0.0"
+  },
+  "sidebar.tutorialSidebar.category.Hardware": {
+    "message": "Hardware",
+    "description": "The label for category Hardware in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Topcon OPUS B2": {
+    "message": "Topcon OPUS B2",
+    "description": "The label for category Topcon OPUS B2 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Topcon OPUS B3": {
+    "message": "Topcon OPUS B3",
+    "description": "The label for category Topcon OPUS B3 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Topcon OPUS B4": {
+    "message": "Topcon OPUS B4",
+    "description": "The label for category Topcon OPUS B4 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Firmware": {
+    "message": "Firmware",
+    "description": "The label for category Firmware in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Main Screen": {
+    "message": "Main Screen",
+    "description": "The label for category Main Screen in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Main Screen.link.generated-index.description": {
+    "message": "When the On/Off key switch is turned to the ‘ON’ position the touchscreen display console will power up and the home screen will be displayed. The home screen conveys information regarding the trucks operating condition. Measured values, indicators and warnings are displayed in the form of icons.",
+    "description": "The generated-index page description for category Main Screen in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Screens": {
+    "message": "Screens",
+    "description": "The label for category Screens in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Screens.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Screens in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Menu": {
+    "message": "Menu",
+    "description": "The label for category Menu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Menu.link.generated-index.description": {
+    "message": "Displayed menus and access to them are limited to user access level. Menus displayed in the system might not be available in all trucks. Slide up and down the menu screens to navigate the menus. Press on a menu item to enter that item. Press the arrow at the top left to go back a page. If you hold it for more than 1.5 s, you will return to the home screen.",
+    "description": "The generated-index page description for category Menu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Monitor": {
+    "message": "Monitor",
+    "description": "The label for category Monitor in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Monitor.link.generated-index.description": {
+    "message": "Service Menu will enable you to reset service hours from the truck.  Three different options might be available depending on which one his closest to happen: First Service, Standard Service and Full Service. After pressing Reset you will be asked to confirm that action.  If so, the service hourmeters will be restart counting a new period. If logged on user is higher than level 4, Interlock Management option will also be available.",
+    "description": "The generated-index page description for category Monitor in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CAN-Devices": {
+    "message": "CAN-Devices",
+    "description": "The label for category CAN-Devices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CAN-Devices.link.generated-index.description": {
+    "message": "The CAN Devices menu allows you to navigate through the monitoring options of the CAN Devices on the system. ",
+    "description": "The generated-index page description for category CAN-Devices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Settings": {
+    "message": "Settings",
+    "description": "The label for category Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Settings.link.generated-index.description": {
+    "message": "The settings menu allows you to navigate to different screen that will allow you to change the trucks parameters. Note not all settings are applicable to every model of truck, & and some parameters will not appear for every truck",
+    "description": "The generated-index page description for category Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Battery": {
+    "message": "Battery",
+    "description": "The label for category Battery in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Battery.link.generated-index.description": {
+    "message": "In the battery screen, you will be able to change the parameters relating to the trucks battery parameters BMS will cycle between the available modules.Low SoC Value – Percentage of battery when truck will enter low state of charge mode Eco Mode is Off if 0 and On if 1  Eco Mode Value – Percentage of battery when truck will enter eco state of charge mode",
+    "description": "The generated-index page description for category Battery in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dynamics": {
+    "message": "Dynamics",
+    "description": "The label for category Dynamics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dynamics.link.generated-index.description": {
+    "message": "The Dynamics menu allows you to navigate to different screens relating to the trucks dynamic settings, that will allow you to change the trucks parameters Note not all settings are applicable to every model of truck, & and some parameters will not appear for every truck",
+    "description": "The generated-index page description for category Dynamics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hydraulics": {
+    "message": "Hydraulics",
+    "description": "The label for category Hydraulics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hydraulics.link.generated-index.description": {
+    "message": "The Hydraulics menu allows you to navigate to different screens relating to the trucks hydraulics functions, that will allow you to change the trucks parameters Not all the options might be available or applicable for your truck. Hydraulic cmd type – Predefined hydraulic layouts Type 0 – For SLE and FSE trucks. Standard configurable input and output hydraulics. Provision for up to 6 fingertips controls with dual redundancy and 4 proportional hydraulic sections or up to 6 PVG valve sections Type 1 – For CS and WR trucks. Pedestrian CAN tiller head or standard configurable inputs and pedestrian hydraulic valve block Type 2 – For AMEOP trucks. Standard configurable input and AMEOP valveblock. Type 3 – For CS3000 trucks. Pedestrian CAN tiller head or standard configurable inputs and AMEOP valveblock Type 4 – For SPT trucks. SPT special hydraulics. CAN joystick and custom valves Type 5 – For SPT trucks. SPT special hydraulics. CAN joystick and custom valves Type 6 – For CBE70, CUBE, MR4 and M-ESL trucks. CAN joystick with ‘Type 0’ configurable output valves. Type 7 – For CBE4000_SHAPE trucks. Basic manual valves with no feedback, single pressure switch to detect the hydraulic movement Type 8 – For FSE trucks. Hydreco CAN joystick and Brevini valves",
+    "description": "The generated-index page description for category Hydraulics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Safety": {
+    "message": "Safety",
+    "description": "The label for category Safety in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Safety.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Safety in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dynamic Active Points": {
+    "message": "Dynamic Active Points",
+    "description": "The label for category Dynamic Active Points in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Dynamic Active Points.link.generated-index.description": {
+    "message": "The Dynamics menu allows you to navigate to different screens relating to the trucks dynamic settings, that will allow you to change the trucks parameters Note not all settings are applicable to every model of truck, & and some parameters will not appear for every truck",
+    "description": "The generated-index page description for category Dynamic Active Points in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.USB": {
+    "message": "USB",
+    "description": "The label for category USB in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.USB.link.generated-index.description": {
+    "message": "When you connect an USB drive to the USB programming port from the truck, the screen will change automatically to this one. In this menu you can select different options relating to a USB drive activities",
+    "description": "The generated-index page description for category USB in sidebar tutorialSidebar"
+  }
+}

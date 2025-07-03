@@ -1,0 +1,31 @@
+---
+sidebar_position: 0
+---
+
+# Docs Summary
+
+| Version | Date | Author           | Status | Approved by | Comments       |
+|---------|------|------------------|--------|-------------|----------------|
+| 1.01    |      | Quentin McGuigan |        |             | First Revision |
+
+
+## Preface
+
+This manual describes how to operate the Topcon B2, B3 and B4 screens in Combilift Machines.
+
+It is essential that the operator and all persons involved in work with the screen read this manual before attempting to operate it.
+
+Operation by inexperienced persons, or in an unintended manner, can result in hazards that can lead to personal risk and subsequent harm to the operator and persons in the operating area of the truck. Improper use can damage the truck as well as the product being handled and property in the vicinity of operation.
+
+Read and understand the operating instructions in this manual before operating the screen and the truck.
+
+
+## About this Manual
+
+The descriptions and illustrations contained in this manual are not in any way binding. Combilift must reserve the right to make changes without prior notice in the interest of the enhancement of the product.
+
+Some screens may be customised to suit the needs of individual customers. Therefore, these screens may deviate slightly from the descriptions contained within this manual.
+
+Every effort has been made to ensure that the information contained herein is accurate at the time of writing. However, it cannot be guaranteed that all the statements in this manual are completely correct.
+
+Whenever the terms front, rear, right and left are used throughout this manual, it is from the perspective of an operator sitting in the operator's seat looking at the forks.

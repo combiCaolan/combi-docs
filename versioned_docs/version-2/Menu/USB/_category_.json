@@ -1,0 +1,8 @@
+{
+  "label": "USB",
+  "position": 21,
+  "link": {
+    "type": "generated-index",
+    "description": "When you connect an USB drive to the USB programming port from the truck, the screen will change automatically to this one. In this menu you can select different options relating to a USB drive activities"
+  }
+}

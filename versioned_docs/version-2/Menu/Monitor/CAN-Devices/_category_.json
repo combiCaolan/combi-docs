@@ -1,0 +1,8 @@
+{
+  "label": "CAN-Devices",
+  "position": 18,
+  "link": {
+    "type": "generated-index",
+    "description": "The CAN Devices menu allows you to navigate through the monitoring options of the CAN Devices on the system. "
+  }
+}

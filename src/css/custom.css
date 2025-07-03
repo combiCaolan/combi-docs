@@ -28,7 +28,11 @@
 }
 
 .navbar--fixed-top a{
-  color: white!important;
+  color: white;
+}
+
+button, .menu__list-item-collapsible a, .theme-doc-sidebar-item-link a{
+  color: gray;
 }
 
 /* 

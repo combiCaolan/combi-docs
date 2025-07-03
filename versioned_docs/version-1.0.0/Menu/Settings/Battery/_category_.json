@@ -1,0 +1,8 @@
+{
+  "label": "Battery",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "In the battery screen, you will be able to change the parameters relating to the trucks battery parameters BMS will cycle between the available modules.Low SoC Value – Percentage of battery when truck will enter low state of charge mode Eco Mode is Off if 0 and On if 1  Eco Mode Value – Percentage of battery when truck will enter eco state of charge mode"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Monitor",
+  "position": 13,
+  "link": {
+    "type": "generated-index",
+    "description": "Service Menu will enable you to reset service hours from the truck.  Three different options might be available depending on which one his closest to happen: First Service, Standard Service and Full Service. After pressing Reset you will be asked to confirm that action.  If so, the service hourmeters will be restart counting a new period. If logged on user is higher than level 4, Interlock Management option will also be available."
+  }
+}

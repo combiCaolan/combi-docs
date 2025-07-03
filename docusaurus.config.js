@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -38,8 +38,27 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr', 'es'], // add your target languages here
+    localeConfigs: {
+      en: { label: 'English' },
+      fr: { label: 'Français' },
+      es: { label: 'Español' }
+    }
   },
+
+
+
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        // language: ["en"], // Uncomment if you want to support other languages
+        // forceIgnoreNoIndex: true, // Uncomment if you use noIndex: true in docs
+      }),
+    ],
+  ],
 
   presets: [
     [
@@ -48,6 +67,15 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'Next 🚧',
+            },
+            '1.0.0': {
+              label: 'v1.0.0',
+            },
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -67,10 +95,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Combilift Docs',
-        logo: {
-          alt: 'Combilift Logo',
-          src: 'http://localhost:8000/assets/ecompassLogoCopy.png',
-        },
+        // logo: {
+        //   alt: 'Combilift Logo',
+        //   src: 'http://localhost:8000/assets/ecompassLogoCopy.png',
+        // },
         items: [
           // {
           //   type: 'docSidebar',
@@ -83,6 +111,18 @@ const config = {
           //   label: 'GitHub',
           //   position: 'right',
           // },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            // Optional: customize dropdown label and options
+            // dropdownActiveClassDisabled: false,
+            // dropdownItemsBefore: [],
+            // dropdownItemsAfter: [],
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          }
         ],
       },
       footer: {
@@ -124,7 +164,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Combilift, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Combilift. `,
       },
       prism: {
         theme: prismThemes.github,
