@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Hardware": {
-    "message": "Hardware",
+    "message": "Matériel",
     "description": "The label for category Hardware in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Topcon OPUS B2": {
