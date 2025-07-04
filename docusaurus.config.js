@@ -82,6 +82,9 @@ const config = {
             '1.0.0': {
               label: 'v1.0.0',
             },
+            '2.0.0': {
+              label: 'v2.0.0',
+            },
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -102,10 +105,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Combilift Docs',
-        // logo: {
-        //   alt: 'Combilift Logo',
-        //   src: 'http://localhost:8000/assets/ecompassLogoCopy.png',
-        // },
+        logo: {
+          alt: 'Combilift Logo',
+          src: 'https://combilift.com/wp-content/uploads/2021/09/Combilift-Web-Logo_W2-01.png',
+        },
         items: [
           // {
           //   type: 'docSidebar',
@@ -161,17 +164,30 @@ const config = {
           //     },
           //   ],
           // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Contact us',
+            items: [
+              {
+                label: 'Address:  Annahagh, Co. Monaghan, H18 VP65, Ireland.',
+                href: 'https://maps.app.goo.gl/39gipgksvuAahrS5A'
+              },
+              {
+                label: 'Phone:+353(0)4780500',
+                href: 'tel:+353(0)4780500',
+              },
+            ],
+          },
+          {
+            // title: 'Contact us',
+            items: [
+              {
+                label: `Copyright © ${new Date().getFullYear()} Combilift. `,
+                href: 'https://combilift.com/'
+              }
+            ],
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Combilift. `,
+        // copyright: `Copyright © ${new Date().getFullYear()} Combilift. `,
       },
       prism: {
         theme: prismThemes.github,

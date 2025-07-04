@@ -35,13 +35,23 @@ button, .menu__list-item-collapsible a, .theme-doc-sidebar-item-link a{
   color: gray;
 }
 
-/* 
+
 
 .hero {
-    background: url(https://support.combilift.net//wp-content/uploads/2023/01/NEW-FACTORY_HERO.jpg?id=409772);
+        overflow: hidden;
+    padding: 4rem 0;
+    position: relative;
+    text-align: center;
+    margin-top: -50px !important;
+    margin-bottom: -40px !important;
+    background-image: url(https://support.combilift.net//wp-content/uploads/2023/01/NEW-FACTORY_HERO.jpg?id=409772) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-position: center;
+    min-height: 612px;
 }
+
+/* 
 
 .hero a {
   background: rgb(13, 105, 56);
@@ -64,3 +74,9 @@ button, .menu__list-item-collapsible a, .theme-doc-sidebar-item-link a{
   padding: 10px;
   border-radius: 5px;
 }
+
+
+.col-4{
+  --ifm-col-width: calc(3 / 12 * 100%)!important;
+}
+

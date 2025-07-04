@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next 🚧",
+    "message": "Suivant 🚧",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Hardware": {
@@ -20,23 +20,23 @@
     "description": "The label for category Topcon OPUS B4 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Firmware": {
-    "message": "Firmware",
+    "message": "Micrologiciel",
     "description": "The label for category Firmware in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Main Screen": {
-    "message": "Main Screen",
+    "message": "Écran principal",
     "description": "The label for category Main Screen in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Main Screen.link.generated-index.description": {
-    "message": "When the On/Off key switch is turned to the ‘ON’ position the touchscreen display console will power up and the home screen will be displayed. The home screen conveys information regarding the trucks operating condition. Measured values, indicators and warnings are displayed in the form of icons.",
+    "message": "Lorsque le contacteur à clé est placé sur la position « ON », la console tactile s'allume et l'écran d'accueil s'affiche. Cet écran fournit des informations sur l'état de fonctionnement du chariot. Les valeurs mesurées, les indicateurs et les avertissements sont affichés sous forme d'icônes.",
     "description": "The generated-index page description for category Main Screen in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Screens": {
-    "message": "Screens",
+    "message": "Écrans",
     "description": "The label for category Screens in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Screens.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "message": "cinq minutes pour apprendre les concepts les plus importants de Docusaurus.",
     "description": "The generated-index page description for category Screens in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Menu": {
@@ -44,15 +44,15 @@
     "description": "The label for category Menu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Menu.link.generated-index.description": {
-    "message": "Displayed menus and access to them are limited to user access level. Menus displayed in the system might not be available in all trucks. Slide up and down the menu screens to navigate the menus. Press on a menu item to enter that item. Press the arrow at the top left to go back a page. If you hold it for more than 1.5 s, you will return to the home screen.",
+    "message": "Les menus affichés et leur accès sont limités au niveau d'accès utilisateur. Les menus affichés dans le système peuvent ne pas être disponibles sur tous les camions. Faites glisser les écrans de menu vers le haut ou vers le bas pour naviguer. Appuyez sur un élément de menu pour y accéder. Appuyez sur la flèche en haut à gauche pour revenir à la page précédente. Maintenez-la enfoncée plus de 1,5 seconde pour revenir à l'écran d'accueil.",
     "description": "The generated-index page description for category Menu in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Monitor": {
-    "message": "Monitor",
+    "message": "Monitrice",
     "description": "The label for category Monitor in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Monitor.link.generated-index.description": {
-    "message": "Service Menu will enable you to reset service hours from the truck.  Three different options might be available depending on which one his closest to happen: First Service, Standard Service and Full Service. After pressing Reset you will be asked to confirm that action.  If so, the service hourmeters will be restart counting a new period. If logged on user is higher than level 4, Interlock Management option will also be available.",
+    "message": "Le menu Service vous permet de réinitialiser les heures d'entretien du camion. Trois options sont disponibles selon la période la plus proche : Premier entretien, Entretien standard et Entretien complet. Après avoir appuyé sur « Réinitialiser », vous serez invité à confirmer l'action. Dans ce cas, les compteurs d'heures d'entretien redémarreront et compteront une nouvelle période. Si l'utilisateur connecté a un niveau supérieur à 4, l'option Gestion des verrouillages sera également disponible.",
     "description": "The generated-index page description for category Monitor in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.CAN-Devices": {
@@ -64,7 +64,7 @@
     "description": "The generated-index page description for category CAN-Devices in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Settings": {
-    "message": "Settings",
+    "message": "Paramètres",
     "description": "The label for category Settings in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Settings.link.generated-index.description": {
@@ -72,7 +72,7 @@
     "description": "The generated-index page description for category Settings in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Battery": {
-    "message": "Battery",
+    "message": "Batterie",
     "description": "The label for category Battery in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Battery.link.generated-index.description": {
@@ -80,35 +80,35 @@
     "description": "The generated-index page description for category Battery in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Dynamics": {
-    "message": "Dynamics",
+    "message": "Dynamique",
     "description": "The label for category Dynamics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Dynamics.link.generated-index.description": {
-    "message": "The Dynamics menu allows you to navigate to different screens relating to the trucks dynamic settings, that will allow you to change the trucks parameters Note not all settings are applicable to every model of truck, & and some parameters will not appear for every truck",
+    "message": "Le menu Dynamique vous permet de naviguer vers différents écrans relatifs aux paramètres dynamiques des camions, qui vous permettront de modifier les paramètres des camions. Notez que tous les paramètres ne sont pas applicables à tous les modèles de camion et que certains paramètres n'apparaîtront pas pour tous les camions.",
     "description": "The generated-index page description for category Dynamics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Hydraulics": {
-    "message": "Hydraulics",
+    "message": "Hydraulique",
     "description": "The label for category Hydraulics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Hydraulics.link.generated-index.description": {
-    "message": "The Hydraulics menu allows you to navigate to different screens relating to the trucks hydraulics functions, that will allow you to change the trucks parameters Not all the options might be available or applicable for your truck. Hydraulic cmd type – Predefined hydraulic layouts Type 0 – For SLE and FSE trucks. Standard configurable input and output hydraulics. Provision for up to 6 fingertips controls with dual redundancy and 4 proportional hydraulic sections or up to 6 PVG valve sections Type 1 – For CS and WR trucks. Pedestrian CAN tiller head or standard configurable inputs and pedestrian hydraulic valve block Type 2 – For AMEOP trucks. Standard configurable input and AMEOP valveblock. Type 3 – For CS3000 trucks. Pedestrian CAN tiller head or standard configurable inputs and AMEOP valveblock Type 4 – For SPT trucks. SPT special hydraulics. CAN joystick and custom valves Type 5 – For SPT trucks. SPT special hydraulics. CAN joystick and custom valves Type 6 – For CBE70, CUBE, MR4 and M-ESL trucks. CAN joystick with ‘Type 0’ configurable output valves. Type 7 – For CBE4000_SHAPE trucks. Basic manual valves with no feedback, single pressure switch to detect the hydraulic movement Type 8 – For FSE trucks. Hydreco CAN joystick and Brevini valves",
+    "message": "Français Le menu Hydraulique vous permet de naviguer vers différents écrans relatifs aux fonctions hydrauliques des chariots, qui vous permettront de modifier les paramètres du chariot. Toutes les options peuvent ne pas être disponibles ou applicables pour votre chariot. Type de commande hydraulique - Configurations hydrauliques prédéfinies Type 0 - Pour les chariots SLE et FSE. Hydraulique d'entrée et de sortie configurable standard. Possibilité de jusqu'à 6 commandes du bout des doigts avec double redondance et 4 sections hydrauliques proportionnelles ou jusqu'à 6 sections de vannes PVG Type 1 - Pour les chariots CS et WR. Tête de timon CAN accompagnant ou entrées configurables standard et bloc de vannes hydrauliques accompagnant Type 2 - Pour les chariots AMEOP. Entrée configurable standard et bloc de vannes AMEOP. Type 3 - Pour les chariots CS3000. Tête de timon CAN accompagnant ou entrées configurables standard et bloc de vannes AMEOP Type 4 - Pour les chariots SPT. Hydraulique spéciale SPT. Joystick CAN et vannes personnalisées Type 5 - Pour les chariots SPT. Hydraulique spéciale SPT. Manette CAN et valves personnalisées Type 6 – Pour chariots CBE70, CUBE, MR4 et M-ESL. Manette CAN avec valves de sortie configurables de type 0. Type 7 – Pour chariots CBE4000_SHAPE. Valves manuelles de base sans retour, avec un seul pressostat pour détecter le mouvement hydraulique. Type 8 – Pour chariots FSE. Manette CAN Hydreco et valves Brevini.",
     "description": "The generated-index page description for category Hydraulics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Safety": {
-    "message": "Safety",
+    "message": "Sécurité",
     "description": "The label for category Safety in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Safety.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "message": "5 minutes pour apprendre les concepts les plus importants de Docusaurus.",
     "description": "The generated-index page description for category Safety in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Dynamic Active Points": {
-    "message": "Dynamic Active Points",
+    "message": "Points actifs dynamiques",
     "description": "The label for category Dynamic Active Points in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Dynamic Active Points.link.generated-index.description": {
-    "message": "The Dynamics menu allows you to navigate to different screens relating to the trucks dynamic settings, that will allow you to change the trucks parameters Note not all settings are applicable to every model of truck, & and some parameters will not appear for every truck",
+    "message": "Le menu Dynamique vous permet de naviguer vers différents écrans relatifs aux paramètres dynamiques des camions, qui vous permettront de modifier les paramètres des camions. Notez que tous les paramètres ne sont pas applicables à tous les modèles de camion et que certains paramètres n'apparaîtront pas pour tous les camions.",
     "description": "The generated-index page description for category Dynamic Active Points in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.USB": {
@@ -116,7 +116,7 @@
     "description": "The label for category USB in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.USB.link.generated-index.description": {
-    "message": "When you connect an USB drive to the USB programming port from the truck, the screen will change automatically to this one. In this menu you can select different options relating to a USB drive activities",
+    "message": "Lorsque vous connectez une clé USB au port de programmation USB du chariot, l'écran s'affiche automatiquement. Ce menu vous permet de sélectionner différentes options relatives aux activités de la clé USB.",
     "description": "The generated-index page description for category USB in sidebar tutorialSidebar"
   }
 }
