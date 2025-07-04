@@ -46,7 +46,12 @@ const config = {
     }
   },
 
-
+  scripts: [
+    {
+      src: 'https://cdn.kapa.ai/widget.js',
+      async: true,
+    }
+  ],
 
   themes: [
     [
