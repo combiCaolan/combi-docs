@@ -19,6 +19,18 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
+  plugins: [
+    [
+      "docusaurus-plugin-chat-page",
+      {
+        path: "chat", // URL path for the chat page
+        openai: {
+          apiKey: process.env.OPENAI_API_KEY, // Your OpenAI API key
+        },
+      },
+    ],
+  ],
+
   // Set the production url of your site here
   url: 'https://combiCaolan.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -128,6 +140,11 @@ const config = {
             // dropdownActiveClassDisabled: false,
             // dropdownItemsBefore: [],
             // dropdownItemsAfter: [],
+          },
+          {
+            to: "/chat", // Make sure this matches your plugin's path configuration
+            label: "Chat",
+            position: "left",
           },
           {
             type: 'localeDropdown',
