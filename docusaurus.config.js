@@ -6,6 +6,24 @@
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
+// if open ai api key exists, use the chat page plugin
+// otherwise, skip the plugin and log a warning
+const openaiApiKey = process.env.OPENAI_API_KEY;
+
+const plugins = [];
+
+if (openaiApiKey) {
+  plugins.push([
+    'docusaurus-plugin-chat-page',
+    {
+      openaiApiKey,
+      // any other options you use
+    },
+  ]);
+} else {
+  console.warn('Warning: OPENAI_API_KEY not set. Skipping chat page plugin.');
+}
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
@@ -19,17 +37,7 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  plugins: [
-    [
-      "docusaurus-plugin-chat-page",
-      {
-        path: "chat", // URL path for the chat page
-        openai: {
-          apiKey: process.env.OPENAI_API_KEY, // Your OpenAI API key
-        },
-      },
-    ],
-  ],
+  plugins,
 
   // Set the production url of your site here
   url: 'https://combiCaolan.github.io',
@@ -85,9 +93,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebar: {
-            autoCollapseCategories: true,
-          },
+          // sidebar: {
+          //   autoCollapseCategories: true,
+          // },
           sidebarPath: './sidebars.js',
           lastVersion: 'current',
           versions: {
@@ -144,11 +152,13 @@ const config = {
             // dropdownItemsBefore: [],
             // dropdownItemsAfter: [],
           },
-          {
-            to: "/chat", // Make sure this matches your plugin's path configuration
+          ...(openaiApiKey
+        ? [{
+            to: "/chat",
             label: "Chat",
             position: "left",
-          },
+          }]
+        : []),
           {
             type: 'localeDropdown',
             position: 'right',
