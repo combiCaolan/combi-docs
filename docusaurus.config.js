@@ -85,6 +85,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          sidebar: {
+            autoCollapseCategories: true,
+          },
           sidebarPath: './sidebars.js',
           lastVersion: 'current',
           versions: {
